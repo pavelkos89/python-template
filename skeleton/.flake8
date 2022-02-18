@@ -1,0 +1,11 @@
+[flake8]
+ignore = 
+    E501, # line too long (handled by Black)
+    W503 # line break before binary operator (handled by Black)
+exclude =
+    .git,
+    .venv,
+    .vscode,
+    __pycache__
+max-line-length = 79
+max-complexity = 7
